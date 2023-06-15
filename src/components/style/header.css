@@ -1,0 +1,8 @@
+.backgroundHeaderColour {
+  background: rgb(247, 208, 96);
+  background: linear-gradient(
+    0deg,
+    rgba(247, 208, 96, 1) 0%,
+    rgba(152, 216, 170, 1) 100%
+  );
+}
