@@ -1,4 +1,5 @@
 import { Typography, Grid, Box } from "@mui/material";
+import footerBackground from "../images/layered-waves-haikei.svg";
 import "./style/footer.css";
 
 function Footer() {
@@ -9,11 +10,15 @@ function Footer() {
         width: "100%",
         margin: "auto",
         padding: "0",
-        backgroundImage: "./images/layered-waves-haikei.svg",
       }}
       className="backgroundFooterColour"
     >
-      <Grid container direction="column" alignItems="center">
+      <Grid
+        container
+        direction="column"
+        alignItems="center"
+        style={{ zindex: "2", background: "transparent" }}
+      >
         <Grid item xs={12} style={{ margin: "50px 25px auto" }}>
           <Typography variant="h2">Footer</Typography>
         </Grid>
@@ -22,6 +27,11 @@ function Footer() {
           <Typography>Footer</Typography>
         </Grid>
       </Grid>
+      <img
+        src={footerBackground}
+        alt="footer background"
+        style={{ zindex: "1", bottom: "0", width: "100%" }}
+      ></img>
     </Box>
   );
 }
