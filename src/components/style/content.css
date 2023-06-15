@@ -1,3 +1,20 @@
 .contentWords {
   color: #f3e99f;
 }
+
+@media (min-width: 768px) {
+  #contentContainer {
+    margin-top: -200px;
+  }
+}
+
+@media (min-width: 1025px) {
+  #contentContainer {
+    margin-top: -400px;
+  }
+}
+@media (min-width: 2100px) {
+  #contentContainer {
+    margin-top: -400px;
+  }
+}

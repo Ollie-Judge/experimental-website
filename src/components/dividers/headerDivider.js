@@ -4,7 +4,7 @@ function HeaderBottomDivider() {
   return (
     <div
       className="shapedividers_com-328"
-      style={{ zIndex: "-1", width: "100%" }}
+      style={{ zIndex: "1", width: "100%" }}
     >
       <svg
         data-name="Layer 1"

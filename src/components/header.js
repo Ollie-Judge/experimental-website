@@ -18,32 +18,33 @@ function Header() {
             className="headerText"
             style={{ margin: "15px auto" }}
           >
-            Experimental
+            This is a website to demonstrate my knowlege of making a pretty cool
+            website
           </Typography>
           <Typography
             variant="h4"
             className="headerText"
             style={{ margin: "15px auto" }}
           >
-            Experimental
+            I think that this website is pretty cool
           </Typography>
           <Typography
             variant="body1"
             className="headerText"
             style={{ margin: "15px auto" }}
           >
-            Experimental
+            Do you?
           </Typography>
         </Grid>
 
-        <Grid item xs={12} style={{ margin: "50px" }}>
+        <Grid item xs={12} style={{ margin: "25px 50px" }}>
           <Button
             variant="outlined"
             style={{
               borderRadius: "25px",
             }}
           >
-            Learn More
+            Click here to express your satisfaction
           </Button>
         </Grid>
       </Grid>

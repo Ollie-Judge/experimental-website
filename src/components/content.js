@@ -4,8 +4,9 @@ import "./style/content.css";
 function Content() {
   return (
     <Box
+      id="contentContainer"
       style={{
-        zindex: "1",
+        zindex: "-1",
         width: "100%",
         background: "#FF6D60",
         margin: "auto",

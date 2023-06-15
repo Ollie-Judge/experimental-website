@@ -2,6 +2,7 @@
   overflow: hidden;
   position: relative;
 }
+
 .shapedividers_com-328::before {
   content: "";
   font-family: "shape divider from ShapeDividers.com";
