@@ -6,3 +6,9 @@
     rgba(152, 216, 170, 1) 100%
   );
 }
+
+.scaleOutCenter {
+  -webkit-animation: scaleOutCenter 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+    both;
+  animation: scaleOutCenter 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}

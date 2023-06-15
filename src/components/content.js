@@ -8,7 +8,6 @@ function Content() {
       style={{
         zindex: "-1",
         width: "100%",
-        background: "#FF6D60",
         margin: "auto",
         padding: "0",
       }}

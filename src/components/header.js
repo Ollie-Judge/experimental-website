@@ -2,6 +2,9 @@ import { Typography, Button, Grid, Box } from "@mui/material";
 import "./style/header.css";
 
 function Header() {
+  const buttonDissolve = () => {
+    document.getElementById("headerButton").classList.add("scaleOutCenter");
+  };
   return (
     <Box
       style={{ width: "100%", margin: "auto", padding: "0" }}
@@ -39,10 +42,12 @@ function Header() {
 
         <Grid item xs={12} style={{ margin: "25px 50px" }}>
           <Button
+            id="headerButton"
             variant="outlined"
             style={{
               borderRadius: "25px",
             }}
+            onClick={buttonDissolve}
           >
             Click here to express your satisfaction
           </Button>
