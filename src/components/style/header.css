@@ -1,3 +1,15 @@
+#title {
+  font-family: Rubik Wet Paint;
+}
+
+#subtitle {
+  font-family: Kavoon;
+}
+
+#subtitle2 {
+  font-family: Modak;
+}
+
 .backgroundHeaderColour {
   background: rgb(247, 208, 96);
   background: linear-gradient(

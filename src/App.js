@@ -3,6 +3,7 @@ import Header from "./components/header";
 import HeaderDividerBottom from ".//components/dividers/headerDivider";
 import Content from "./components/content";
 import Footer from "./components/footer";
+import "./assets/fonts.css";
 
 function App() {
   return (
