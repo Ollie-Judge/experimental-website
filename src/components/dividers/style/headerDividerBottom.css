@@ -1,6 +1,7 @@
 .shapedividers_com-328 {
   overflow: hidden;
   position: relative;
+  margin-top: -1px;
 }
 
 .shapedividers_com-328::before {
