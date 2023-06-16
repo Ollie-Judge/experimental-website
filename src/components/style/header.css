@@ -6,8 +6,22 @@
   font-family: Kavoon;
 }
 
-#subtitle2 {
+#subtitle2,
+#subtitle3,
+#buttonContainer,
+#headerButton {
   font-family: Modak;
+}
+
+#headerButton {
+  color: #ff5b4d;
+  background: #7ece94;
+  border: #7ece94 1px solid;
+}
+
+#headerButton:hover {
+  color: white;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 1);
 }
 
 .backgroundHeaderColour {
@@ -17,10 +31,4 @@
     rgba(247, 208, 96, 1) 0%,
     rgba(152, 216, 170, 1) 100%
   );
-}
-
-.scaleOutCenter {
-  -webkit-animation: scaleOutCenter 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53)
-    both;
-  animation: scaleOutCenter 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }

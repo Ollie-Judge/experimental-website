@@ -2,8 +2,15 @@ import { Typography, Button, Grid, Box } from "@mui/material";
 import "./style/header.css";
 
 function Header() {
-  const buttonDissolve = () => {
-    document.getElementById("headerButton").classList.add("scaleOutCenter");
+  const removeButton = () => {
+    let headerButton = document.getElementById("headerButton");
+    headerButton.remove();
+
+    let textLocation = document.createElement("Typography");
+    let node = document.createTextNode("You made a great decission");
+    textLocation.appendChild(node);
+    let addText = document.getElementById("buttonContainer");
+    addText.appendChild(textLocation);
   };
   return (
     <Box
@@ -36,6 +43,7 @@ function Header() {
             I think that this website is pretty cool
           </Typography>
           <Typography
+            id="subtitle3"
             variant="body1"
             className="headerText"
             style={{ margin: "15px auto" }}
@@ -44,14 +52,14 @@ function Header() {
           </Typography>
         </Grid>
 
-        <Grid item xs={12} style={{ margin: "25px 50px" }}>
+        <Grid item xs={12} id="buttonContainer" style={{ margin: "25px 50px" }}>
           <Button
             id="headerButton"
             variant="outlined"
             style={{
               borderRadius: "25px",
             }}
-            onClick={buttonDissolve}
+            onClick={removeButton}
           >
             Click here to express your satisfaction
           </Button>

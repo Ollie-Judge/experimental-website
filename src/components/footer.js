@@ -17,21 +17,39 @@ function Footer() {
         container
         direction="column"
         alignItems="center"
-        style={{ zindex: "2", background: "transparent" }}
+        style={{
+          position: "relative",
+          bottom: "0",
+          background: "transparent",
+        }}
       >
-        <Grid item xs={12} style={{ margin: "50px 25px auto" }}>
+        <Grid
+          item
+          xs={12}
+          style={{
+            margin: "50px 25px auto",
+            zindex: "2",
+            position: "relative",
+          }}
+        >
           <Typography variant="h2">Footer</Typography>
         </Grid>
 
         <Grid item>
-          <Typography>Footer</Typography>
+          <Typography style={{ zindex: "2", position: "relative" }}>
+            Footer
+          </Typography>
         </Grid>
+        <img
+          src={footerBackground}
+          alt="footer background"
+          style={{
+            zindex: "-1",
+            position: "absolute",
+            width: "100%",
+          }}
+        ></img>
       </Grid>
-      <img
-        src={footerBackground}
-        alt="footer background"
-        style={{ zindex: "1", bottom: "0", width: "100%" }}
-      ></img>
     </Box>
   );
 }

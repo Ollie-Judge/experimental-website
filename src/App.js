@@ -1,7 +1,8 @@
 import "./App.css";
 import Header from "./components/header";
 import HeaderDividerBottom from ".//components/dividers/headerDivider";
-import Content from "./components/content";
+import GreenBlob from "./components/greenBlob";
+import LightYellowBlob from "./components/yellowBlob";
 import Footer from "./components/footer";
 import "./assets/fonts.css";
 
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
       <Header />
       <HeaderDividerBottom />
-      <Content />
+      <GreenBlob />
+      <LightYellowBlob />
       <Footer />
     </div>
   );
